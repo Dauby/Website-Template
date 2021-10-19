@@ -1,0 +1,50 @@
+body { /*Sets the color of the background to a blue*/
+    background-color : rgb(101, 193, 221)
+  }
+  h1 { /*The header code*/
+    color : white;
+    background-color : #000000;
+    border : solid black 10px;
+    font-style : Times New Roman;
+    text-align : center;
+  }
+  p { /*The text code*/
+    color : white;
+    background-color : black;
+    border : solid black 10px;
+    font-style : Times New Roman;
+    margin-top : none;
+    margin-left : none;
+    margin-bottom : none;
+    margin-right: 400px;
+  }
+  
+  footer { /*footer code*/
+      margin-top : 400px;
+      margin-bottom : none;
+      margin-left : none;
+      margin-right : none;
+  }
+  
+  /* Links code for the navigation bar */
+  li {
+    float : left;
+  }
+  ul {
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow : hidden;
+    background-color :black;
+  }
+  li a {
+    display : block;
+    color : white;
+    text-align : center;
+    padding : 14px 16px;
+    text-decoration : none;
+  }
+  li a:hover {
+    background-color: white;
+    color : black;
+  }
